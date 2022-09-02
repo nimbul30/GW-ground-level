@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: (#66768A);
+  --secondary: (#DBDFE2);
+  --footer: (#161F2A);
+}
+
+
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  font-family: 'Oswald', sans-serif;
+
+}
+
+header {
+  background-color: #66768A;
+  width: 100%;
+  height: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  color: whitesmoke
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+  color: whitesmoke;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.btn-donate {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  border-radius: 5px;
+  margin: 10px 20px;
+  padding: 5px 10px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold
+}
+
+.btn-donate:hover {
+  cursor: pointer;
+  background-color: #000000;
+  color: white;
+}
+
+.watch-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #fff
+}
+
+.watch-wrapper * {
+  margin-bottom: 75px;
+}
+
+.classes,
+.hire {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .7em;
+}
+
+.showcase h1 {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.fa-solid {
+  border: 1px solid white;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.watch-wrapper a {
+  text-decoration: none;
+}
+
+.why * {
+  text-align: center;
+  color: #66768A;
+  margin: 10px
+}
+
+.why h1 {
+  text-transform: uppercase;
+}
+
+.why p {
+  margin-bottom: 50px;
+}
+
+
+
+.middle {
+  background-color: #66768A;
+}
+
+.middle img {
+  max-width: 100%;
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
+.gym h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px
+}
+
+.gym p {
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.btn-class,
+.btn-hire {
+  text-decoration: none;
+  border: 1px solid white;
+  display: block;
+  text-align: center;
+  margin: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.volunteer {
+  text-align: center;
+}
+
+.btn-volunteer {
+  text-decoration: none;
+  color: #161F2A;
+  border: 1px solid #161F2A;
+  display: inline-block;
+  text-align: center;
+  margin: 100px;
+  padding: 10px 20px;
+
+}
+
+.trainer h3 {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+
+}
+
+.trainer {
+  width: 100%;
+  height: 900px;
+}
+
+.volunteer h1 {
+  color: #66768A;
+  text-transform: uppercase;
+  margin-top: 100px;
+
+}
+
+.volunteer p {
+  color: #66768A;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #161F2A;
+  height: 100%;
+  width: 100%;
+}
+
+footer * {
+
+  color: #fff
+}
+
+.social {
+  color: #fff;
+}
+
+.footer-links * {
+  text-decoration: none;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrapper-one {
+  text-align: center;
+}
+
+.footer-two {
+  border-top: 2px solid #fff;
+}
+
+@media (min-width:740px) {
+  .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .gym {
+    width: 50%;
+    margin: 50px;
+  }
+
+  .trainer {
+    width: 50%;
+    margin: 100px 50px 50px 50px;
+  }
+
+  .nav-wrapper {
+    display: flex;
+  }
+
+  .nav-wrapper * {
+    margin-left: 20px;
+  }
+
+
+}
